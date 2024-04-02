@@ -1,0 +1,10 @@
+INSTALL NPM : npm init
+
+AUTOMATIC RESTART : npm install -g nodemon
+                    npm i nodemon
+                    nodemon .\app.js ==> app.js is file to restart automatically
+
+                    choose package.json file add "start": "nodemon app.js" in "scripts"     
+                    start using npm start              
+
+INSTALL EXPRESS IN FOLDER : npm i express
